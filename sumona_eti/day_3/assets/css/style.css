@@ -1,0 +1,38 @@
+.container{
+    width:80%;
+    margin: auto;
+}
+#heading-section{
+    background: rgb(210, 208, 208);
+    text-transform: capitalize;
+   padding-left: 10px;
+}
+main{
+   padding-top: 20px;
+}
+.skill-section{
+    background-color: rgb(234, 232, 232);
+    padding-left: 10px;
+    float: left;
+
+}
+#heading-section h1{
+display: inline;
+}
+#heading-section h3{
+margin: 0;
+text-decoration: underline;
+ }
+ .list-item1 {
+    list-style: none;
+   padding-left: 10px;
+ }
+ .ps-details{
+    float: left;
+    margin-left: 20px;
+}
+#pd-section{
+text-transform:capitalize ;
+line-height: 1.5;
+}
+
