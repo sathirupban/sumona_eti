@@ -1,0 +1,248 @@
+/* common code start here  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.container{
+    max-width: 1440px;
+    min-width: 380px;
+    margin: auto;
+
+}
+/* common code end here  */
+/* nav code start here  */
+.nav-section{
+    height: 60px;
+    background-color:  #1C82FA;
+}
+.nav_logo{
+    float: left;
+    margin: 16px 20px 16px 70px;
+    padding: 5px;
+}
+.nav_logo a{
+    text-decoration: none;
+    font-size: 18px ;
+    font-weight: 400;
+    color: #fff;
+    font-family: inter;
+}
+.nav_item{
+    float: right;
+    margin-right: 70px;
+}
+.nav_item ul li{
+    list-style: none;
+    display: inline;
+ }
+ .nav_item ul li a{
+    text-decoration: none;
+    font-size: 16px ;
+    font-weight: 400;
+    padding:10px ;
+    color: #fff;
+    font-family: inter;
+ }
+/*nav code end here  */
+/*  project code start here  */
+#project-section{
+    height: 500px;
+}
+.project-content{
+    float: left;
+}
+.project-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing:-2%;
+    width: 525px;
+    height: 228px;
+    line-height: 76px;
+    font-family: inter;
+    margin-bottom: 0px ;
+}
+.project-content p{
+    font-size:18px;
+    font-weight:400;
+    letter-spacing:-1%;
+    width: 522px;
+    height: 56px;
+    line-height: 28px;
+    font-family: inter;
+}
+.project-content button{
+    width: 140px;
+    height: 30px;
+   background-color: #1C82FA;
+    border-radius: 16px;
+    border: none;
+    font-size: 14px ;
+    font-weight: 600;
+    font-family: inter;
+    color: #fff;
+}
+.project-poster{
+    float: right;
+    height: 437px;
+    width: 574px;
+    margin-top:60px;
+    margin-right: 30px;
+}
+/*project code end here  */
+/*about-section code end here  */
+#about-section{
+    height: 430px;
+    background-color: #1C82FA;
+}
+.about-content{
+    float: right;
+    height: 100%;
+    padding-right: 40px;
+}
+.about-content h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing:-2%;
+    width: 535px;
+    height: 56px;
+    font-family: inter;
+    color: #fff;
+}
+
+.about-content p{
+    font-size:18px;
+    font-weight:400;
+    letter-spacing:-1%;
+    width: 574px;
+    height: 84px;
+    font-family: inter;
+    color: #fff;
+}
+
+.about-content button{
+    width: 140px;
+    height: 60px;
+   background-color: #fff;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px ;
+    font-weight: 600;
+    font-family: inter;
+    color: #1C82FA;
+margin-top:20px;
+}
+.about-poster{
+    float: left;
+    height:100%;
+    margin-top:60px;
+    padding-left: 30px;
+    margin-top: 0px;
+}
+.about-poster img{
+    width: 525px;
+    height: 410px;
+}
+/*about-section code end here  */
+/*service-section code start here  */
+#card{
+    margin-top: 5px;
+    margin-right: 30px;
+    height: 500px;
+}
+.heading{
+    font-size:48px ;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    height: 56px;
+    margin-bottom: 20px;
+}
+.card-body1{
+    width: 344px;
+    height: 385px;
+    text-align: center;
+    background-color: #1C82FA;
+    float: left;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+.card-body h1{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: inter;
+}
+.card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inter;
+    width: 291px;
+    height: 96px;
+    padding-left: 10px;
+}
+.card-body button{
+    width: 114px;
+    height: 44px;
+   background-color: #fff;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px ;
+    font-weight: 600;
+    font-family: inter;
+    color: #1C82FA;
+}
+.card-body2{
+    width: 344px;
+    height: 385px;
+    text-align: center;
+    background-color: #1C82FA;
+    float: left;
+    margin: 0px 30px;
+}
+.card-body3{
+    width: 344px;
+    height: 385px;
+    text-align: center;
+    background-color: #1C82FA;
+    float: left;
+    margin: 0px 30px;
+}
+/*service-section code end here  */
+/*footer-section code start here  */
+.Oceanic-footer{
+    background-color: #1C82FA;
+    padding-left: 70px;
+    height: 300px;
+}
+.Oceanic-footer-content{
+    float: left;
+    width:30%;
+    margin-top: 40px;
+}
+.Oceanic-footer-content h1{
+    font-size: 24px;
+    font-weight:600;
+    font-family: inter;
+    height:30px ;
+    width:96px ;
+    color: #fff;
+}
+.Oceanic-footer-content p{
+    font-size: 16px;
+    font-weight:400;
+    font-family: inter;
+    height: 78px ;
+    width:415px ;
+    color: #fff;
+}
+.page-content{
+    float: left;
+    margin-left: 55px;
+    margin-top: 40px;
+}
+.page-content ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight:400;
+    font-family: inter;
+    color: #fff;
+    line-height: 28px;
+}
+
+
