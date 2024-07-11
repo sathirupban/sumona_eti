@@ -1,0 +1,251 @@
+/* common code start here  */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root{
+    --primary-color: #DBB784;
+    --secondary-color:#fff;
+    --brand-color:#B72026;
+    --dark-color:#040404;
+}
+/* common code end here  */
+/* header code start here  */
+/*navcode start here  */
+#heading-section{
+}
+.top-header{
+    display: flex;
+    height: 60px;
+    background-color: var(--dark-color);
+   justify-content: space-between ;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.logo a{
+    font-size:24px ;
+    font-weight:700 ;
+    font-family: Playfair Display;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.nav-items ul li{
+    font-size:16px ;
+    font-weight:700 ;
+    font-family: Instrument Sans;
+    color: var( --primary-color);
+    list-style: none;
+    display: inline;
+    padding:10px 4px;
+    text-transform: uppercase;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: var( --primary-color);
+    font-family: playfair display;
+}
+.nav-btn{
+    background: var(--brand-color);
+    margin-top: 15px;
+    margin-right: 40px;
+    box-shadow: 2px 2px var(--primary-color);
+}
+.nav-btn a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight:400 ;
+    font-family: Instrument Sans;
+    color: var(--secondary-color);
+}
+/* nav code end here  */
+ /* bottom header code start here  */
+ #bottom-header{
+     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/hero-bg.webp);
+ }
+.heading_design{
+display: flex;
+justify-content: center;
+ }
+ .heading_bottom{
+    display: flex;
+justify-content:end;
+ }
+.bottom-header-content h1,p{
+    height: 280px;
+    width: 1100px;
+    margin: 0px auto;
+    padding: 10px 0px;
+}
+.bottom-header-content h1{
+    font-size:100px ;
+    font-weight:600 ;
+    font-family:  playfair display;
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 0px;
+}
+.bottom-header-content p{
+    font-size:20px ;
+    font-weight:400 ;
+    font-family: Instrument Sans;
+    text-align: center;
+    margin-top: 0px;
+    height: 30px;
+    color: var(--secondary-color);
+}
+.bottom-header-btn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top:30px;
+}
+.bottom-header-btn1{
+    background: var(--brand-color);
+    color: var(--secondary-color);
+    padding: 15px;
+    width: 200px;
+    box-shadow:1px 1px var(--primary-color) inset;
+}
+.bottom-header-btn2{
+    background: var(--dark-color);
+    color: var(--secondary-color);
+    padding: 15px;
+    width: 200px;
+    box-shadow: 1px 1px var(--primary-color);
+}
+.bottom-header-btn a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight:400 ;
+    font-family: Instrument Sans;
+    color: var(--secondary-color);
+}
+ /* bottom header code end here  */
+/* header code end here  */
+/* about-section start here  */
+#about-section{
+    height: 538px;
+    background: #eeebe6;
+}
+.about_img_r{
+    position: absolute;
+    top: 75px; 
+    left: 45px;
+}
+.about_img{
+    position: absolute;
+    right: 45px;
+    bottom:75px;
+}
+.row{
+    width: 1280px;
+    height: 298px;
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    padding: 120px 0px;
+    margin: auto;
+    position: relative;
+}
+.cardbody{
+    width: 300px;
+    height: 230px;
+    text-align: center;
+    background-color: #FBF8F3;
+    padding: 32px 28px;
+}
+.cardbody .image{
+    background: var(--primary-color);
+    height: 56px;
+    width: 56px;
+}
+.cardbody h1{
+    font-size: 32px;
+    font-weight: 700;
+    font-family:playfair display;
+    height: 42px;
+    width: 272px;
+}
+.cardbody p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:playfair display;
+    height: 26px;
+    width: 272px;
+}
+.cardbody a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight:400 ;
+    font-family: Instrument Sans;
+    color: var(--dark-color);
+}
+.cardbody a:hover{
+    color: var(--brand-color);
+}
+/* about-section end here  */
+/* menu-section start here  */
+#menu-section{
+    height:580px;
+    background: #FBF8F3;
+    padding: 120px 128px;
+}
+.menu_content{
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    height: 127px;
+}
+.menu_content h1{
+    font-size: 68px;
+    font-weight:600;
+    font-family:playfair display;
+    width: 749px;
+    height: 82px;
+    margin: 0px 0px;
+}
+.menu_content button{
+    background: var(--dark-color);
+    width: 179px;
+    height: 52px;
+    margin: 40px 0px;
+}
+.menu_content button a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight:400 ;
+    font-family:playfair display;
+    color: var(--secondary-color);
+}
+.menu_content p{
+    font-size: 18px;
+    font-weight:500;
+    font-family:playfair display;
+    width: 749px;
+    height: 29px;
+    margin-left: 0px;
+}
+.menu_img{
+    display: flex;
+    width: 1148px;
+    height: 468px;
+}
+.menu_img figure{
+    width: 382px;
+    height: 468px;
+    margin: auto;
+}
+.menu_img figure figcaption{   
+    text-align: center;
+    font-size: 32px;
+    font-weight:600;
+    font-family:playfair display;
+    width: 300px;
+    height: 42px;
+}
+.menu_img figure img{
+    border: 1px solid var(--primary-color);
+    width:300px;
+    height:402px;
+}
+/* menu-section end here  */
