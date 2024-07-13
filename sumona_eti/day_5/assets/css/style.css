@@ -249,3 +249,197 @@ justify-content:end;
     height:402px;
 }
 /* menu-section end here  */
+/* dish details section start here  */
+#dish-details{
+    height:500px;
+    background: var(--dark-color);
+    padding: 100px 110px;
+}
+.dishes{
+    height:450px;
+    display: flex;
+    justify-content: space-between;
+}
+.about_dish{
+    width: 642px;
+    height: 308px;
+}
+.about_dish h1{
+    font-size: 68px;
+    font-weight:600;
+    font-family:playfair display;
+    color: var(--secondary-color);
+    width: 642px;
+    height: 170px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.about_dish p{
+    font-size: 18px;
+    font-weight:500;
+    font-family: Instrument Sans;
+    color: var(--secondary-color);
+    width: 642px;
+    height: 128px;
+    line-height: 1.5;
+}
+.dish-btn{
+    height: 30px;
+    width: 642px;
+    padding-top: 40px;
+}
+.dish-btn button{
+    background: var(--brand-color);
+    box-shadow: 1px 1px var(--primary-color);
+}
+.dish-btn a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight:400 ;
+    font-family:playfair display;
+    color: var(--secondary-color);
+}
+#dish_img img{
+    height: 450px;
+    width: 400px;
+    background: var(--secondary-color);
+    box-shadow: 1px 1px 2px var(--primary-color);
+}
+/* dish details section end here  */
+/* Photo gallary section start here  */
+#Gallery-photo{
+    height: 878px;
+    background: var(--secondary-color);
+}
+#photo_gallary_content{
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+#side_photo1 img{
+    width: 64px;
+    height: 410px;
+}
+#side_photo2 img{
+    width: 64px;
+    height: 410px;
+}
+.photo-section_content {
+    text-align: center;
+    padding-top: 80px;
+    height: 156px;
+}
+.photo-section_content h1{
+    font-size: 68px;
+    font-weight:600;
+    font-family:playfair display;
+    color: var(--dark-color);
+    margin: 0px;
+    height: 84px;
+}
+.photo-section_content p{
+    font-size: 18px;
+    font-weight:500;
+    font-family:Instrument Sans;
+    color: var(--dark-color);
+    height: 58px;
+    width: 618px;
+}
+.photo-section_content button{
+    background: var(--brand-color);
+    border: none;
+    box-shadow: 3px 3px var(--primary-color);
+    height: 60px;
+    width: 272px;
+}
+.photo-section_content button  img{
+    width: 24px;
+    height: 24px;
+
+}
+.photo-section_content button a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight:400 ;
+    font-family:playfair display;
+    color: var(--secondary-color);
+}
+/*Photo gallary section end here  */
+/* footer code start here  */
+/*footer-section code start here  */
+#footer-section{
+    height: 460px;
+    background-color: var(--dark-color);
+}
+.maharaza-footer{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#footer-content{
+    display: flex;
+ padding: 100px 60px 100px 0px;
+  justify-content: space-between;
+  justify-content: center;
+}
+.maharaza-footer-content{
+    width: 340px;
+    height: 178px;
+}
+.maharaza-footer-content h1{
+    font-size: 24px;
+    font-weight:600;
+    font-family: playfair display;
+    height:24px ;
+    width:135px ;
+    color:var(--secondary-color);
+}
+.maharaza-footer-content p{
+    font-size: 16px;
+    font-weight:400;
+    font-family:Instrument Sans;
+    height:130px ;
+    width:340px ;
+    color: var(--secondary-color);
+}
+.page-content ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight:400;
+    font-family: Instrument Sans;
+    color: var(--secondary-color);
+    line-height: 30px;
+}
+.page-content ul li:first-child{
+    font-size: 20px;
+    font-weight:500;
+    font-family: playfair display;
+    text-transform: uppercase;
+}
+.xyz{
+    rotate:450deg;
+    position: absolute;
+    right: 0;
+}
+.xyz img{
+    width: 180px;
+    height: 180px;
+}	
+.copy-right-sec{
+    text-align: center;
+    background: #171717;
+    height: 60px;
+}
+.copy-right-sec span{
+    padding: 10px;
+    height: 24px;
+    width: 24px;
+}
+.copy-right-sec p{
+    font-size: 16px;
+    font-weight:400;
+    font-family:Instrument Sans;
+    color: var(--secondary-color);
+}
+/* footer code start here  */
